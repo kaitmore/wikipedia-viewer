@@ -1,0 +1,51 @@
+img{
+  width: 150px;
+  height: auto;
+}
+.row {
+  margin: 20px;
+}
+
+.form-control:focus {
+  height: 85px;
+}
+
+.results {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.results li {
+  list-style-type: none;
+  height: auto;
+  color: #3A3A3A;
+}
+
+.results a,
+.results a:visited {
+  display: block;
+  color: #3A3A3A;
+  height: auto;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: white;
+  border-left: 6px solid #DADADA;
+}
+
+.results a:hover {
+  text-decoration: none;
+  display: block;
+  height: auto;
+  background: #F9F9F9;
+  border-left: 6px solid #FF6600;
+}
+input[type=search] {
+    border: none;
+    border-bottom: 2px solid #FF6600;
+    font-size: 28pt;
+    text-align: center;
+     height: auto;
+}
